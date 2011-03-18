@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EA53101333C517004398B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA530F1333C517004398B1 /* UIKit.framework */; };
+		B2EA53121333C517004398B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA53111333C517004398B1 /* Foundation.framework */; };
+		B2EA53141333C517004398B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA53131333C517004398B1 /* CoreGraphics.framework */; };
+		B2EA531A1333C517004398B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2EA53181333C517004398B1 /* InfoPlist.strings */; };
+		B2EA531D1333C517004398B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA531C1333C517004398B1 /* main.m */; };
+		B2EA53201333C517004398B1 /* KreativeTweetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA531F1333C517004398B1 /* KreativeTweetAppDelegate.m */; };
+		B2EA53231333C517004398B1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EA53211333C517004398B1 /* MainWindow.xib */; };
+		B2EA53261333C517004398B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA53251333C517004398B1 /* FirstViewController.m */; };
+		B2EA53291333C517004398B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA53281333C517004398B1 /* SecondViewController.m */; };
+		B2EA532C1333C517004398B1 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EA532A1333C517004398B1 /* FirstView.xib */; };
+		B2EA532F1333C517004398B1 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2EA532D1333C517004398B1 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2EA530B1333C517004398B1 /* KreativeTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KreativeTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA530F1333C517004398B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2EA53111333C517004398B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2EA53131333C517004398B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2EA53171333C517004398B1 /* KreativeTweet-Info.plist */ = {isa = PBXFileReference; path = "KreativeTweet-Info.plist"; sourceTree = "<group>"; };
+		B2EA53191333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2EA531B1333C517004398B1 /* KreativeTweet-Prefix.pch */ = {isa = PBXFileReference; path = "KreativeTweet-Prefix.pch"; sourceTree = "<group>"; };
+		B2EA531C1333C517004398B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EA531E1333C517004398B1 /* KreativeTweetAppDelegate.h */ = {isa = PBXFileReference; path = KreativeTweetAppDelegate.h; sourceTree = "<group>"; };
+		B2EA531F1333C517004398B1 /* KreativeTweetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KreativeTweetAppDelegate.m; sourceTree = "<group>"; };
+		B2EA53221333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B2EA53241333C517004398B1 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2EA53251333C517004398B1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B2EA53271333C517004398B1 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2EA53281333C517004398B1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2EA532B1333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		B2EA532E1333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EA53081333C517004398B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA53101333C517004398B1 /* UIKit.framework in Frameworks */,
+				B2EA53121333C517004398B1 /* Foundation.framework in Frameworks */,
+				B2EA53141333C517004398B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EA53001333C517004398B1 = {
+			isa = PBXGroup;
+			children = (
+				B2EA53151333C517004398B1 /* KreativeTweet */,
+				B2EA530E1333C517004398B1 /* Frameworks */,
+				B2EA530C1333C517004398B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EA530C1333C517004398B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA530B1333C517004398B1 /* KreativeTweet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EA530E1333C517004398B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA530F1333C517004398B1 /* UIKit.framework */,
+				B2EA53111333C517004398B1 /* Foundation.framework */,
+				B2EA53131333C517004398B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EA53151333C517004398B1 /* KreativeTweet */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA531E1333C517004398B1 /* KreativeTweetAppDelegate.h */,
+				B2EA531F1333C517004398B1 /* KreativeTweetAppDelegate.m */,
+				B2EA53211333C517004398B1 /* MainWindow.xib */,
+				B2EA53241333C517004398B1 /* FirstViewController.h */,
+				B2EA53251333C517004398B1 /* FirstViewController.m */,
+				B2EA53271333C517004398B1 /* SecondViewController.h */,
+				B2EA53281333C517004398B1 /* SecondViewController.m */,
+				B2EA532A1333C517004398B1 /* FirstView.xib */,
+				B2EA532D1333C517004398B1 /* SecondView.xib */,
+				B2EA53161333C517004398B1 /* Supporting Files */,
+			);
+			path = KreativeTweet;
+			sourceTree = "<group>";
+		};
+		B2EA53161333C517004398B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA53171333C517004398B1 /* KreativeTweet-Info.plist */,
+				B2EA53181333C517004398B1 /* InfoPlist.strings */,
+				B2EA531B1333C517004398B1 /* KreativeTweet-Prefix.pch */,
+				B2EA531C1333C517004398B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EA530A1333C517004398B1 /* KreativeTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA53321333C517004398B1 /* Build configuration list for PBXNativeTarget "KreativeTweet" */;
+			buildPhases = (
+				B2EA53071333C517004398B1 /* Sources */,
+				B2EA53081333C517004398B1 /* Frameworks */,
+				B2EA53091333C517004398B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KreativeTweet;
+			productName = KreativeTweet;
+			productReference = B2EA530B1333C517004398B1 /* KreativeTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EA53021333C517004398B1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B2EA53051333C517004398B1 /* Build configuration list for PBXProject "KreativeTweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2EA53001333C517004398B1;
+			productRefGroup = B2EA530C1333C517004398B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EA530A1333C517004398B1 /* KreativeTweet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EA53091333C517004398B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA531A1333C517004398B1 /* InfoPlist.strings in Resources */,
+				B2EA53231333C517004398B1 /* MainWindow.xib in Resources */,
+				B2EA532C1333C517004398B1 /* FirstView.xib in Resources */,
+				B2EA532F1333C517004398B1 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EA53071333C517004398B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA531D1333C517004398B1 /* main.m in Sources */,
+				B2EA53201333C517004398B1 /* KreativeTweetAppDelegate.m in Sources */,
+				B2EA53261333C517004398B1 /* FirstViewController.m in Sources */,
+				B2EA53291333C517004398B1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2EA53181333C517004398B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA53191333C517004398B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2EA53211333C517004398B1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA53221333C517004398B1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B2EA532A1333C517004398B1 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA532B1333C517004398B1 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		B2EA532D1333C517004398B1 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA532E1333C517004398B1 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EA53301333C517004398B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2EA53311333C517004398B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B2EA53331333C517004398B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KreativeTweet/KreativeTweet-Prefix.pch";
+				INFOPLIST_FILE = "KreativeTweet/KreativeTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2EA53341333C517004398B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KreativeTweet/KreativeTweet-Prefix.pch";
+				INFOPLIST_FILE = "KreativeTweet/KreativeTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EA53051333C517004398B1 /* Build configuration list for PBXProject "KreativeTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA53301333C517004398B1 /* Debug */,
+				B2EA53311333C517004398B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA53321333C517004398B1 /* Build configuration list for PBXNativeTarget "KreativeTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA53331333C517004398B1 /* Debug */,
+				B2EA53341333C517004398B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EA53021333C517004398B1 /* Project object */;
+}

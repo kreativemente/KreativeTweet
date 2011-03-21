@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2D064051337E7E00046FEB2 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = B2D063FB1337E7E00046FEB2 /* Base64Transcoder.c */; };
+		B2D064061337E7E00046FEB2 /* MPOAuthAuthenticationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D063FE1337E7E00046FEB2 /* MPOAuthAuthenticationMethod.m */; };
+		B2D064071337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064001337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.m */; };
+		B2D064081337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064021337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.m */; };
+		B2D064091337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064041337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.m */; };
+		B2D0642E1337E9440046FEB2 /* MPOAuthAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064101337E8AC0046FEB2 /* MPOAuthAPI.m */; };
+		B2D0642F1337E9440046FEB2 /* MPOAuthAPIRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064121337E8AE0046FEB2 /* MPOAuthAPIRequestLoader.m */; };
+		B2D064301337E9440046FEB2 /* MPOAuthConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064141337E8B20046FEB2 /* MPOAuthConnection.m */; };
+		B2D064311337E9440046FEB2 /* MPOAuthCredentialConcreteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064161337E8B60046FEB2 /* MPOAuthCredentialConcreteStore.m */; };
+		B2D064321337E9440046FEB2 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064181337E8BC0046FEB2 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */; };
+		B2D064331337E9440046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064191337E8C00046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */; };
+		B2D064341337E9440046FEB2 /* MPOAuthSignatureParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D0641D1337E8CF0046FEB2 /* MPOAuthSignatureParameter.m */; };
+		B2D064351337E9440046FEB2 /* MPOAuthURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D0641F1337E8D90046FEB2 /* MPOAuthURLRequest.m */; };
+		B2D064361337E9440046FEB2 /* MPOAuthURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064211337E8E40046FEB2 /* MPOAuthURLResponse.m */; };
+		B2D064371337E9440046FEB2 /* MPURLRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064231337E8F00046FEB2 /* MPURLRequestParameter.m */; };
+		B2D064381337E9440046FEB2 /* MPWSLRDDiscoverer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064251337E8FD0046FEB2 /* MPWSLRDDiscoverer.m */; };
+		B2D064391337E9440046FEB2 /* MPWSXRDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064271337E90A0046FEB2 /* MPWSXRDDocument.m */; };
+		B2D0643A1337E9440046FEB2 /* NSString+URLEscapingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D064291337E91A0046FEB2 /* NSString+URLEscapingAdditions.m */; };
+		B2D0643B1337E9440046FEB2 /* NSURL+MPURLParameterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D0642B1337E9290046FEB2 /* NSURL+MPURLParameterAdditions.m */; };
+		B2D0643C1337E9440046FEB2 /* NSURLResponse+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D0642D1337E93A0046FEB2 /* NSURLResponse+Encoding.m */; };
 		B2EA53101333C517004398B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA530F1333C517004398B1 /* UIKit.framework */; };
 		B2EA53121333C517004398B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA53111333C517004398B1 /* Foundation.framework */; };
 		B2EA53141333C517004398B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EA53131333C517004398B1 /* CoreGraphics.framework */; };
@@ -21,20 +41,63 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2D063FB1337E7E00046FEB2 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		B2D063FC1337E7E00046FEB2 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		B2D063FD1337E7E00046FEB2 /* MPOAuthAuthenticationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethod.h; sourceTree = "<group>"; };
+		B2D063FE1337E7E00046FEB2 /* MPOAuthAuthenticationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethod.m; sourceTree = "<group>"; };
+		B2D063FF1337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodAuthExchange.h; sourceTree = "<group>"; };
+		B2D064001337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodAuthExchange.m; sourceTree = "<group>"; };
+		B2D064011337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodOAuth.h; sourceTree = "<group>"; };
+		B2D064021337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodOAuth.m; sourceTree = "<group>"; };
+		B2D064031337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodXAuth.h; sourceTree = "<group>"; };
+		B2D064041337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodXAuth.m; sourceTree = "<group>"; };
+		B2D0640D1337E8AA0046FEB2 /* MPDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDebug.h; sourceTree = "<group>"; };
+		B2D0640E1337E8AA0046FEB2 /* MPOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuth.h; sourceTree = "<group>"; };
+		B2D0640F1337E8AB0046FEB2 /* MPOAuthAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPI.h; sourceTree = "<group>"; };
+		B2D064101337E8AC0046FEB2 /* MPOAuthAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPI.m; sourceTree = "<group>"; };
+		B2D064111337E8AD0046FEB2 /* MPOAuthAPIRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPIRequestLoader.h; sourceTree = "<group>"; };
+		B2D064121337E8AE0046FEB2 /* MPOAuthAPIRequestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPIRequestLoader.m; sourceTree = "<group>"; };
+		B2D064131337E8B00046FEB2 /* MPOAuthConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthConnection.h; sourceTree = "<group>"; };
+		B2D064141337E8B20046FEB2 /* MPOAuthConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthConnection.m; sourceTree = "<group>"; };
+		B2D064151337E8B40046FEB2 /* MPOAuthCredentialConcreteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialConcreteStore.h; sourceTree = "<group>"; };
+		B2D064161337E8B60046FEB2 /* MPOAuthCredentialConcreteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthCredentialConcreteStore.m; sourceTree = "<group>"; };
+		B2D064171337E8B90046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPOAuthCredentialConcreteStore+KeychainAdditions.h"; sourceTree = "<group>"; };
+		B2D064181337E8BC0046FEB2 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m"; sourceTree = "<group>"; };
+		B2D064191337E8C00046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m"; sourceTree = "<group>"; };
+		B2D0641A1337E8C40046FEB2 /* MPOAuthCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialStore.h; sourceTree = "<group>"; };
+		B2D0641B1337E8C70046FEB2 /* MPOAuthParameterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthParameterFactory.h; sourceTree = "<group>"; };
+		B2D0641C1337E8CB0046FEB2 /* MPOAuthSignatureParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthSignatureParameter.h; sourceTree = "<group>"; };
+		B2D0641D1337E8CF0046FEB2 /* MPOAuthSignatureParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthSignatureParameter.m; sourceTree = "<group>"; };
+		B2D0641E1337E8D40046FEB2 /* MPOAuthURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLRequest.h; sourceTree = "<group>"; };
+		B2D0641F1337E8D90046FEB2 /* MPOAuthURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLRequest.m; sourceTree = "<group>"; };
+		B2D064201337E8DF0046FEB2 /* MPOAuthURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLResponse.h; sourceTree = "<group>"; };
+		B2D064211337E8E40046FEB2 /* MPOAuthURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLResponse.m; sourceTree = "<group>"; };
+		B2D064221337E8EA0046FEB2 /* MPURLRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPURLRequestParameter.h; sourceTree = "<group>"; };
+		B2D064231337E8F00046FEB2 /* MPURLRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPURLRequestParameter.m; sourceTree = "<group>"; };
+		B2D064241337E8F60046FEB2 /* MPWSLRDDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWSLRDDiscoverer.h; sourceTree = "<group>"; };
+		B2D064251337E8FD0046FEB2 /* MPWSLRDDiscoverer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWSLRDDiscoverer.m; sourceTree = "<group>"; };
+		B2D064261337E9030046FEB2 /* MPWSXRDDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWSXRDDocument.h; sourceTree = "<group>"; };
+		B2D064271337E90A0046FEB2 /* MPWSXRDDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWSXRDDocument.m; sourceTree = "<group>"; };
+		B2D064281337E9120046FEB2 /* NSString+URLEscapingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscapingAdditions.h"; sourceTree = "<group>"; };
+		B2D064291337E91A0046FEB2 /* NSString+URLEscapingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscapingAdditions.m"; sourceTree = "<group>"; };
+		B2D0642A1337E9210046FEB2 /* NSURL+MPURLParameterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MPURLParameterAdditions.h"; sourceTree = "<group>"; };
+		B2D0642B1337E9290046FEB2 /* NSURL+MPURLParameterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MPURLParameterAdditions.m"; sourceTree = "<group>"; };
+		B2D0642C1337E9320046FEB2 /* NSURLResponse+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLResponse+Encoding.h"; sourceTree = "<group>"; };
+		B2D0642D1337E93A0046FEB2 /* NSURLResponse+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLResponse+Encoding.m"; sourceTree = "<group>"; };
 		B2EA530B1333C517004398B1 /* KreativeTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KreativeTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EA530F1333C517004398B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2EA53111333C517004398B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2EA53131333C517004398B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B2EA53171333C517004398B1 /* KreativeTweet-Info.plist */ = {isa = PBXFileReference; path = "KreativeTweet-Info.plist"; sourceTree = "<group>"; };
+		B2EA53171333C517004398B1 /* KreativeTweet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KreativeTweet-Info.plist"; sourceTree = "<group>"; };
 		B2EA53191333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B2EA531B1333C517004398B1 /* KreativeTweet-Prefix.pch */ = {isa = PBXFileReference; path = "KreativeTweet-Prefix.pch"; sourceTree = "<group>"; };
+		B2EA531B1333C517004398B1 /* KreativeTweet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KreativeTweet-Prefix.pch"; sourceTree = "<group>"; };
 		B2EA531C1333C517004398B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B2EA531E1333C517004398B1 /* KreativeTweetAppDelegate.h */ = {isa = PBXFileReference; path = KreativeTweetAppDelegate.h; sourceTree = "<group>"; };
+		B2EA531E1333C517004398B1 /* KreativeTweetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KreativeTweetAppDelegate.h; sourceTree = "<group>"; };
 		B2EA531F1333C517004398B1 /* KreativeTweetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KreativeTweetAppDelegate.m; sourceTree = "<group>"; };
 		B2EA53221333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B2EA53241333C517004398B1 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2EA53241333C517004398B1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		B2EA53251333C517004398B1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B2EA53271333C517004398B1 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2EA53271333C517004398B1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B2EA53281333C517004398B1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B2EA532B1333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		B2EA532E1333C517004398B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
@@ -54,6 +117,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2D063CA1337E7960046FEB2 /* MPOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B2D0640D1337E8AA0046FEB2 /* MPDebug.h */,
+				B2D0640E1337E8AA0046FEB2 /* MPOAuth.h */,
+				B2D0640F1337E8AB0046FEB2 /* MPOAuthAPI.h */,
+				B2D064101337E8AC0046FEB2 /* MPOAuthAPI.m */,
+				B2D064111337E8AD0046FEB2 /* MPOAuthAPIRequestLoader.h */,
+				B2D064121337E8AE0046FEB2 /* MPOAuthAPIRequestLoader.m */,
+				B2D064131337E8B00046FEB2 /* MPOAuthConnection.h */,
+				B2D064141337E8B20046FEB2 /* MPOAuthConnection.m */,
+				B2D064151337E8B40046FEB2 /* MPOAuthCredentialConcreteStore.h */,
+				B2D064161337E8B60046FEB2 /* MPOAuthCredentialConcreteStore.m */,
+				B2D064171337E8B90046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
+				B2D064181337E8BC0046FEB2 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */,
+				B2D064191337E8C00046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */,
+				B2D0641A1337E8C40046FEB2 /* MPOAuthCredentialStore.h */,
+				B2D0641B1337E8C70046FEB2 /* MPOAuthParameterFactory.h */,
+				B2D0641C1337E8CB0046FEB2 /* MPOAuthSignatureParameter.h */,
+				B2D0641D1337E8CF0046FEB2 /* MPOAuthSignatureParameter.m */,
+				B2D0641E1337E8D40046FEB2 /* MPOAuthURLRequest.h */,
+				B2D0641F1337E8D90046FEB2 /* MPOAuthURLRequest.m */,
+				B2D064201337E8DF0046FEB2 /* MPOAuthURLResponse.h */,
+				B2D064211337E8E40046FEB2 /* MPOAuthURLResponse.m */,
+				B2D064221337E8EA0046FEB2 /* MPURLRequestParameter.h */,
+				B2D064231337E8F00046FEB2 /* MPURLRequestParameter.m */,
+				B2D064241337E8F60046FEB2 /* MPWSLRDDiscoverer.h */,
+				B2D064251337E8FD0046FEB2 /* MPWSLRDDiscoverer.m */,
+				B2D064261337E9030046FEB2 /* MPWSXRDDocument.h */,
+				B2D064271337E90A0046FEB2 /* MPWSXRDDocument.m */,
+				B2D064281337E9120046FEB2 /* NSString+URLEscapingAdditions.h */,
+				B2D064291337E91A0046FEB2 /* NSString+URLEscapingAdditions.m */,
+				B2D0642A1337E9210046FEB2 /* NSURL+MPURLParameterAdditions.h */,
+				B2D0642B1337E9290046FEB2 /* NSURL+MPURLParameterAdditions.m */,
+				B2D0642C1337E9320046FEB2 /* NSURLResponse+Encoding.h */,
+				B2D0642D1337E93A0046FEB2 /* NSURLResponse+Encoding.m */,
+				B2D0640B1337E81A0046FEB2 /* Crypto */,
+				B2D0640C1337E8270046FEB2 /* Authentication Methods */,
+			);
+			name = MPOAuth;
+			sourceTree = "<group>";
+		};
+		B2D0640B1337E81A0046FEB2 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				B2D063FB1337E7E00046FEB2 /* Base64Transcoder.c */,
+				B2D063FC1337E7E00046FEB2 /* Base64Transcoder.h */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
+		B2D0640C1337E8270046FEB2 /* Authentication Methods */ = {
+			isa = PBXGroup;
+			children = (
+				B2D063FD1337E7E00046FEB2 /* MPOAuthAuthenticationMethod.h */,
+				B2D063FE1337E7E00046FEB2 /* MPOAuthAuthenticationMethod.m */,
+				B2D063FF1337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.h */,
+				B2D064001337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.m */,
+				B2D064011337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.h */,
+				B2D064021337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.m */,
+				B2D064031337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.h */,
+				B2D064041337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.m */,
+			);
+			name = "Authentication Methods";
+			sourceTree = "<group>";
+		};
 		B2EA53001333C517004398B1 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +213,7 @@
 		B2EA53151333C517004398B1 /* KreativeTweet */ = {
 			isa = PBXGroup;
 			children = (
+				B2D063CA1337E7960046FEB2 /* MPOAuth */,
 				B2EA531E1333C517004398B1 /* KreativeTweetAppDelegate.h */,
 				B2EA531F1333C517004398B1 /* KreativeTweetAppDelegate.m */,
 				B2EA53211333C517004398B1 /* MainWindow.xib */,
@@ -174,6 +304,26 @@
 				B2EA53201333C517004398B1 /* KreativeTweetAppDelegate.m in Sources */,
 				B2EA53261333C517004398B1 /* FirstViewController.m in Sources */,
 				B2EA53291333C517004398B1 /* SecondViewController.m in Sources */,
+				B2D064051337E7E00046FEB2 /* Base64Transcoder.c in Sources */,
+				B2D064061337E7E00046FEB2 /* MPOAuthAuthenticationMethod.m in Sources */,
+				B2D064071337E7E00046FEB2 /* MPOAuthAuthenticationMethodAuthExchange.m in Sources */,
+				B2D064081337E7E00046FEB2 /* MPOAuthAuthenticationMethodOAuth.m in Sources */,
+				B2D064091337E7E00046FEB2 /* MPOAuthAuthenticationMethodXAuth.m in Sources */,
+				B2D0642E1337E9440046FEB2 /* MPOAuthAPI.m in Sources */,
+				B2D0642F1337E9440046FEB2 /* MPOAuthAPIRequestLoader.m in Sources */,
+				B2D064301337E9440046FEB2 /* MPOAuthConnection.m in Sources */,
+				B2D064311337E9440046FEB2 /* MPOAuthCredentialConcreteStore.m in Sources */,
+				B2D064321337E9440046FEB2 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m in Sources */,
+				B2D064331337E9440046FEB2 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */,
+				B2D064341337E9440046FEB2 /* MPOAuthSignatureParameter.m in Sources */,
+				B2D064351337E9440046FEB2 /* MPOAuthURLRequest.m in Sources */,
+				B2D064361337E9440046FEB2 /* MPOAuthURLResponse.m in Sources */,
+				B2D064371337E9440046FEB2 /* MPURLRequestParameter.m in Sources */,
+				B2D064381337E9440046FEB2 /* MPWSLRDDiscoverer.m in Sources */,
+				B2D064391337E9440046FEB2 /* MPWSXRDDocument.m in Sources */,
+				B2D0643A1337E9440046FEB2 /* NSString+URLEscapingAdditions.m in Sources */,
+				B2D0643B1337E9440046FEB2 /* NSURL+MPURLParameterAdditions.m in Sources */,
+				B2D0643C1337E9440046FEB2 /* NSURLResponse+Encoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +444,7 @@
 				B2EA53341333C517004398B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
